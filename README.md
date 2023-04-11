@@ -9,7 +9,7 @@ For the final mission, i choose to scrap the (Hard) one, Data pekerjaan data di 
 
 ## Finished skeleton
 ![](cat_order.png)
-<b>simple bar plot analysis:<b> jakarta especially jakarta pusat has the most vacancy in 'data' occupation than any location, second is tangerang especially in tangerang selatan.
+<b>simple bar plot analysis:</b> jakarta especially jakarta pusat has the most vacancy in 'data' occupation than any location, second is tangerang especially in tangerang selatan.
 
 ## Challenges
 - cleaning data
