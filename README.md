@@ -8,8 +8,9 @@ For the final mission, i choose to scrap the (Hard) one, Data pekerjaan data di 
 - Buatlah plot dari jumlah pekerjaan berdasarkan lokasi.
 
 ## Finished skeleton
+- for skeleton, i make new notebook 'Skeleton for Scrapping 15 pages' only to focus scrapping 15 pages from website, the result of unclean data i save into .csv to make it easier if we want to recall it instead of load page from web.
 ![](cat_order.png)
-<b>simple bar plot analysis:</b> jakarta especially jakarta pusat has the most vacancy in 'data' occupation than any location, second is tangerang especially in tangerang selatan.
+<b>simple bar plot analysis:</b> jakarta especially jakarta selatan has the most vacancy in 'data' occupation than any location, second is jakarta pusat.
 
 ## Challenges
 - cleaning data
