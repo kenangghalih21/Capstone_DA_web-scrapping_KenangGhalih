@@ -40,3 +40,10 @@ Namun, untuk lokasi tetap daerah Jakarta memegang proporsi tertinggi dengan Top 
 ![](df_unclean.png)
 ![](df_semi_clean.png)
 - etc..
+## My Gitlab🦊
+<p>Sometimes, i often to use gitlab too..
+<a href="https://gitlab.com/kenangghalih21" target="_blank"> Visit my gitlab!</a> </p>
+<p>Also connect to my linkedin:
+<a href="https://www.linkedin.com/in/kenangghalih21/" target="_blank"> Linkedin</a> </p>
+<p>Take a look! My main Capstone i've been picked - Flask-UI Dashboard:
+<a href="https://github.com/kenangghalih21/Capstone_DA_flask-ui_KenangGhalih" target="_blank"> Github Project</a> </p>
