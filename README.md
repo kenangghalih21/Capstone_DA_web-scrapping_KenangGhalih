@@ -7,12 +7,28 @@ For the final mission, i choose to scrap the (Hard) one, Data pekerjaan data di 
 - tariklah 15 halaman
 - Buatlah plot dari jumlah pekerjaan berdasarkan lokasi.
 ## Finished skeleton
-- for skeleton, i make new notebook 'Skeleton for Scrapping 15 pages' only to focus scrapping 15 pages from website, the result of unclean data i save into .csv to make it easier if we want to recall it instead of load page from web.
-![](cat_order.png)
-<b>simple bar plot analysis:</b> jakarta especially jakarta selatan has the most vacancy in 'data' occupation than any location, second is jakarta pusat.
+- for skeleton, i make new notebook 'Skeleton for Scrapping 15 pages' only to focus scrapping 15 pages from website, the result of unclean data i save into vacancy.csv to make it easier if we want to recall it instead of load page from web.
+
 ## Result of flask-dashboard
 ![](page1.png)
 ![](page2.png)
+
+## Kind of Plot
+<p><b>Line Plot<'Default'>:</b>Menunjukkan sebaran frekuensi di antara 8 daerah dengan lowongan pekerjaan di bidang data; mulai dari daerah yang lowongan pekerjaan nya sedikit sampai daerah dengan lowongan pekerjaan di bidang data yang terbanyak </p>
+<p><b>[Bar plot] Plot jumlah pekerjaan berdasarkan lokasi:</b>Plot ini menunjukkan 15 Lokasi dengan pembukaan lowongan pekerjaan di bidang data terbanyak, daerah tersebut kurang lebih;</p> 
+- Jakarta
+- Tanagerang
+- Surabaya
+- Bandung
+- Sleman
+- Yogyakarta
+- Banjarmasin
+- Denpasar
+Namun, untuk lokasi tetap daerah Jakarta memegang proporsi tertinggi dengan Top 3 lokasi yakni;
+1. Jakarta Selatan
+2. Jakarta Pusat
+3. Jakarta Barat 
+<p><b>[Bar plot] Plot jumlah company/perusahaan yang membuka lowongan terbanyak:</b>Plot ini menunjukkan 20 Company/Perusahaan dengan pembukaan lowongan pekerjaan di bidang data terbanyak, baik perusahaan settle ataupun start-up rupanya masih memiliki demand yang besar terhadap kebutuhan tenaga pekerja expertise di bidang data</p> 
 ## Challenges
 - cleaning data
 ![](df_unclean.png)

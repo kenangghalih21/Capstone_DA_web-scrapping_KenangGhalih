@@ -55,7 +55,8 @@
 				<!-- Tab content -->
 				<div id="profile" class="tabcontent">
 					<br>
-					<h3 style="color: #333333;text-align:center">Plot Jumlah Pekerjaan Berdasarkan Lokasi					
+					<h3 style="color: #333333;text-align:center">Top 8 Lokasi Dengan Kuota Terbanyak untuk <br>
+						Lowongan Pekerjaan di Bidang Data 					
 					</h3>
 					<div class="img-container">
 						{% if funded_plot != None %}
@@ -65,14 +66,25 @@
 				</div>
 				<div id="Own" class="tabcontent">
 					<br>
-					<h3 style="color: #333333;text-align:center">Plot Jumlah Pekerjaan Berdasarkan Lokasi					
+					<h3 style="color: #333333;text-align:center">Top 15 Jumlah Lowongan Pekerjaan di Bidang Data <br>
+						Terbanyak Berdasarkan Lokasi/Daerah					
 					</h3>
 					<div class="img-container">
 						{% if funded_plot != None %}
 					  <img src="data:image/png;base64,{{ plot_result2 }}" >
 						{% endif %}
 					</div>
+					<hr style="height:5px;border-width:0;color:gray;background-color:red">
+					<br>
+					<h3 style="color: #333333;text-align:center">Top 20 Highest Quota Vacancy of Data in Company					
+					</h3>
+					<div class="img-container">
+						{% if funded_plot != None %}
+					  <img src="data:image/png;base64,{{ plot_result3 }}" >
+						{% endif %}
+					</div>
 				</div>
+
 			</div>
 		</div>
 	</div>

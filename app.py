@@ -109,6 +109,19 @@ df.deadline = df.deadline.str.lstrip()
 
 #end of data wranggling 
 
+pd.crosstab(
+ index=df['company'],
+ columns='Total Vacancy of Company',
+).sort_values(by='Total Vacancy of Company', ascending=True).tail(20).\
+    plot.barh(figsize = (17,9),legend=None, title='\tTop 20 Highest Quota Vacancy of Data in Company'.expandtabs());
+
+figfile = BytesIO()
+plt.savefig(figfile, format='png', transparent=True)
+figfile.seek(0)
+figdata_png = base64.b64encode(figfile.getvalue())
+plot_result3 = str(figdata_png)[2:-1]
+
+
 @app.route("/")
 def index(): 
 
@@ -128,7 +141,7 @@ def index():
 	figfile.seek(0)
 	figdata_png = base64.b64encode(figfile.getvalue())
 	plot_result2 = str(figdata_png)[2:-1]
-
+    
 	card_data = f'{cat_order["title"].mean().round(2)}' #be careful with the " and ' 
 
 
@@ -143,11 +156,13 @@ def index():
 	figdata_png = base64.b64encode(figfile.getvalue())
 	plot_result = str(figdata_png)[2:-1]
     
+    
 	# render to html
 	return render_template('index.html',
 		card_data = card_data, 
 		plot_result=plot_result,
-		plot_result2=plot_result2
+		plot_result2=plot_result2,
+		plot_result3=plot_result3,
 		)
 
 
