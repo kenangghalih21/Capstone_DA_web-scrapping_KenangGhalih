@@ -15,10 +15,10 @@
 					<br>
 					<br>
 					<h1 class="mb-2">
-						This is the title 
+						Plot Jumlah Pekerjaan
 					</h1>
 					<h3>
-						Reported Period: insert the data period here
+						Reported Source: <a href='https://www.kalibrr.id/id-ID/job-board/te/data/'>Kalibrr (Data Vacancy)</a>
 					</h3>
 					<br>
 				</div>
@@ -55,16 +55,23 @@
 				<!-- Tab content -->
 				<div id="profile" class="tabcontent">
 					<br>
-					<h3 style="color: #333333;text-align:center">plot title here</h3>
-					<div class="img-container"">
+					<h3 style="color: #333333;text-align:center">Plot Jumlah Pekerjaan Berdasarkan Lokasi					
+					</h3>
+					<div class="img-container">
 						{% if funded_plot != None %}
 					  <img src="data:image/png;base64,{{ plot_result }}" >
 						{% endif %}
 					</div>
 				</div>
 				<div id="Own" class="tabcontent">
-				  <!-- Define your own analysis for extra challange -->
-
+					<br>
+					<h3 style="color: #333333;text-align:center">Plot Jumlah Pekerjaan Berdasarkan Lokasi					
+					</h3>
+					<div class="img-container">
+						{% if funded_plot != None %}
+					  <img src="data:image/png;base64,{{ plot_result2 }}" >
+						{% endif %}
+					</div>
 				</div>
 			</div>
 		</div>
