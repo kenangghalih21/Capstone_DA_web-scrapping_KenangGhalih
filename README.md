@@ -16,19 +16,25 @@ For the final mission, i choose to scrap the (Hard) one, Data pekerjaan data di 
 ## Kind of Plot
 <p><b>Line Plot<'Default'>:</b>Menunjukkan sebaran frekuensi di antara 8 daerah dengan lowongan pekerjaan di bidang data; mulai dari daerah yang lowongan pekerjaan nya sedikit sampai daerah dengan lowongan pekerjaan di bidang data yang terbanyak </p>
 <p><b>[Bar plot] Plot jumlah pekerjaan berdasarkan lokasi:</b>Plot ini menunjukkan 15 Lokasi dengan pembukaan lowongan pekerjaan di bidang data terbanyak, daerah tersebut kurang lebih;</p> 
-- Jakarta
-- Tanagerang
-- Surabaya
-- Bandung
-- Sleman
-- Yogyakarta
-- Banjarmasin
-- Denpasar
+<ul>
+<li>Jakarta</li>
+<li>Tanagerang</li>
+<li>Surabaya</li>
+<li>Bandung</li>
+<li>Sleman</li>
+<li>Yogyakarta</li>
+<li>Banjarmasin</li>
+<li>Denpasar</li>
+</ul>
 Namun, untuk lokasi tetap daerah Jakarta memegang proporsi tertinggi dengan Top 3 lokasi yakni;
-1. Jakarta Selatan
-2. Jakarta Pusat
-3. Jakarta Barat 
+<ol>
+<li>Jakarta Selatan</li>
+<li>Jakarta Pusat</li>
+<li>Jakarta Barat</li>
+</ol>
+
 <p><b>[Bar plot] Plot jumlah company/perusahaan yang membuka lowongan terbanyak:</b>Plot ini menunjukkan 20 Company/Perusahaan dengan pembukaan lowongan pekerjaan di bidang data terbanyak, baik perusahaan settle ataupun start-up rupanya masih memiliki demand yang besar terhadap kebutuhan tenaga pekerja expertise di bidang data</p> 
+
 ## Challenges
 - cleaning data
 ![](df_unclean.png)
